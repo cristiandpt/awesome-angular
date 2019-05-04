@@ -88,6 +88,16 @@ Table of contents:
 
 ### Angular
 
+* [Platforms](#platforms)
+  * [Ionic 2](#ionic-2)
+    * [Ionic 2 General Resources](#ionic-2-general-resources)
+  * [NativeScript](#nativescript-in-angular-2)
+    * [NativeScript General Resources](#nativescript-general-resources)
+    * [Seed Projects](#nativescript-seed-projects)
+  * [React Native](#react-native)
+    * [React Native General Resources](#react-native-general-resources)
+
+### Angular 2
 > Angular is a development platform for building mobile and desktop web applications.
 
 #### Official Resources
@@ -312,51 +322,7 @@ The HttpClient offers a simplified client HTTP API for Angular applications that
 * [HiRez.io - Angular Basics](https://www.hirez.io/c/angular-basics-1/e/episode-1-course-overview)
 * [HiRez.io - Angular In Depth - Components](https://www.hirez.io/c/components-1/e/episode-1-course-overview)
 * [udemy - Introduction to Angular 2](https://www.udemy.com/introduction-to-angular2/)
-* [udemy - Angular 2 with TypeScript for Beginners: The Pragmatic Guide](https://www.udemy.com/angular-2-tutorial-for-beginners/)
-* [udemy - The Complete Guide to Angular 2](https://www.udemy.com/the-complete-guide-to-angular-2/)
-* [Pluralsight - Angular 2: First Look](https://www.pluralsight.com/courses/angular-2-first-look)
-* [Pluralsight - Angular 2: Getting Started](https://www.pluralsight.com/courses/angular-2-getting-started-update)
-* [Channel9 - The Future of TypeScript: ECMAScript 6, Async/Await and Richer Libraries](https://channel9.msdn.com/Events/Build/2015/3-644)
-* [Channel9 - Creating Cross-Platform Apps with Angular 2](https://channel9.msdn.com/Events/Build/2016/T627)
-* [Code School - Accelerating Through Angular 2](https://www.codeschool.com/courses/accelerating-through-angular)
-* [Angular typed Store](https://www.youtube.com/watch?v=bEkPEnudm7s&feature=youtu.be)
-* [Angular advanced tips and tricks](https://www.youtube.com/watch?v=vyiyJCLlGwo&feature=youtu.be)
-* [Angular Fullstack JavaScript Channel](https://www.youtube.com/channel/UCRefxaAA-7PfezH3CY87fzw)
-* [Angular 4 Master Class: Beginner to Advanced](https://www.udemy.com/angular-crash-course-for-beginners)
-
-#### Style Guides
-
-* [Official Angular style guide](https://angular.io/guide/styleguide)
-* [Shared TSLint & codelyzer rules by fulls1z3](https://github.com/ng-seed/angular-tslint-rules)
-
-#### Angular Connect
-
-* [Keynote – Brad Green, Igor Minar and Jules Kremer](https://www.youtube.com/watch?v=UxjgUjVpe24)
-* [Testing strategies with Angular 2 – Julie Ralph](https://www.youtube.com/watch?v=C0F2E-PRm44)
-* [Building native mobile apps with Angular 2 0 and NativeScript​ - Sebastian Witalec](https://www.youtube.com/watch?v=4SbiiyRSIwo)
-* [Angular 2 Data Flow – Jeff Cross, Rob Wormald and Alex Rickabaugh](https://www.youtube.com/watch?v=bVI5gGTEQ_U)
-* [Iterative version upgrade strategies for large Angular applications – Jen Bourey](https://www.youtube.com/watch?v=8tGcdaItj0I)
-* [Debugging Angular 2 Apps with Batarangle – Yuri Takhteyev and Igor Krivanov](https://www.youtube.com/watch?v=cAC4d3KIQcM)
-* [Building apps with Firebase and Angular 2 - Sara Robinson](https://www.youtube.com/watch?v=RD0xYicNcaY)
-* [Better concepts, less code in Angular 2 - Victor Savkin and Tobias Bosch](https://www.youtube.com/watch?v=4YmnbGoh49U)
-* [Modularity and Packaging for Angular2 Applications – Pawel Kozlowski](https://www.youtube.com/watch?v=9odY9Rh5kTQ)
-* [Creating realtime apps with Angular 2 and Meteor - Uri Goldshtein](https://www.youtube.com/watch?v=3FT0BqYASCo)
-
-#### Books
-
-* [ng-book 2](https://www.ng-book.com/2/) `fullstack.io`
-* [Become a ninja with Angular 2](https://books.ninja-squad.com/angular) `Ninja Squad`
-* [Angular Development with TypeScript](https://www.manning.com/books/angular-2-development-with-typescript) `Manning Publications`
-* [Angular in Action](https://www.manning.com/books/angular-in-action) `Manning Publications`
-* [Practical Angular 2](https://leanpub.com/practical-angular-2) `Leanpub`
-* [Switching to Angular 2](https://www.packtpub.com/web-development/switching-angular-2) `Packt Publishing`
-* [Rangle's Angular 2 training](https://www.gitbook.com/book/rangle-io/ngcourse2/details) `Rangle.io`
-* [揭秘 Angular 2](https://www.amazon.cn/%E5%9B%BE%E4%B9%A6/dp/B01NBOQCJW) `GF Securities`
-* [Learn Angular 2](http://learnangular2.com/) `Ionic Team`
-* [Testing Angular Applications](https://www.manning.com/books/testing-angular-applications) `Manning Publications`
-* [Angular-Buch (German)](https://angular-buch.com/) `dpunkt.verlag`
-
-#### On-Site Training
+* [Codementor - Angular 2 Video Course](https://www.codementor.io/classes/learn-beginner-angular2-video-course)
 
 * [AngularClass](https://angularclass.com)
 * [Angular Boot Camp](https://angularbootcamp.com)
@@ -417,13 +383,17 @@ The HttpClient offers a simplified client HTTP API for Angular applications that
   * [Creating a Virtualized Grid](http://www.syntaxsuccess.com/viewarticle/virtualized-spreadsheet-component-in-angular-2.0)
   * [Socket.io with Observables](http://www.syntaxsuccess.com/viewarticle/socket.io-with-rxjs-in-angular-2.0)
   * [Change Detection](http://www.syntaxsuccess.com/viewarticle/change-detection-in-angular-2.0)
+  * [View Encapsulation in Angular 2](http://blog.thoughtram.io/angular/2015/06/29/shadow-dom-strategies-in-angular2.html)
+  * [Styling Angular 2 components](http://blog.thoughtram.io/angular/2015/06/25/styling-angular-2-components.html)
+  * [Even better ES5 code for Angular 2](http://blog.thoughtram.io/angular/2015/07/06/even-better-es5-code-for-angular-2.html)
+  * [Writing Angular 2 code in ES5](http://blog.thoughtram.io/angular/2015/05/09/writing-angular-2-code-in-es5.html)
+  * [The difference between Annotations and Decorators](http://blog.thoughtram.io/angular/2015/05/03/the-difference-between-annotations-and-decorators.html)
 
 * Burak Tasci (fulls1z3)
   * [Angular 4 with server side rendering (aka Angular Universal)](https://medium.com/burak-tasci/angular-4-with-server-side-rendering-aka-angular-universal-f6c228ded8b0)
 
-#### Integrations
-
-* [FalcorJS + Angular2 (Video)](https://www.youtube.com/watch?v=z8UgDZ4rXBU&feature=youtu.be)
+#### Angular 2 Integrations
+* [FalcorJS + Angular2 (Video)](https://youtu.be/z8UgDZ4rXBU)
 * [Angular2-Meteor](http://angular-meteor.com/angular2)
 * [nativescript-angular](https://github.com/NativeScript/nativescript-angular)
 * [react-native-renderer](https://github.com/angular/react-native-renderer)
@@ -591,6 +561,11 @@ The HttpClient offers a simplified client HTTP API for Angular applications that
 * [angular2-camelcase](https://github.com/previousdeveloper/angular2-camelcase) Angular2 pipe to convert camelCase strings to human readable strings Edit
 
 #### Generators
+* [ng2-bootstrap: Native Angular2 bootstrap components](https://github.com/valor-software/ng2-bootstrap)
+* [ngx-meta/core](https://github.com/ngx-meta/core) - Dynamic page title & meta tags utility for Angular (w/server-side rendering) by @fulls1z3
+* [ngx-config/core](https://github.com/ngx-config/core) - Configuration utility for Angular (incl. Angular Universal loader) by @fulls1z3
+* [ngx-cache/core](https://github.com/ngx-cache/core) - Cache utility for Angular (incl. browser & server platform implementations) by @fulls1z3
+* [ngx-i18n-router/core](https://github.com/ngx-i18n-router/core) - Route internationalization utility for Angular by @fulls1z3
 
 * Node.js
   * Slush
@@ -647,6 +622,8 @@ The HttpClient offers a simplified client HTTP API for Angular applications that
 * [angular-universal](https://github.com/enten/angular-universal) - Angular 6 Universal starter kit based on @angular/cli featuring Server-Side Rendering (SSR) and HMR on browser/server sides
 * [angular-universal-heroku-starter](https://github.com/Alex61NN5/angular-universal-heroku-starter) - Angular 7 Universal Starter Kit with Server-Side Rendering (SSR) and easy deployment to Heroku
 ---
+* [fullstack-angular2-starter](https://github.com/angular-class/fullstack-angular2-starter) - Fullstack Angular 2 starter kit by @Angular-Class
+* [ng-seed/universal](https://github.com/ng-seed/universal) - Seed project for Angular Universal apps featuring Server-Side Rendering (SSR), Webpack, dev/prod modes, DLLs, AoT compilation, HMR, SCSS compilation, lazy loading, config, cache, i18n, SEO, and TSLint/codelyzer by @fulls1z3
 
 ### Angular 2 in TypeScript
 
@@ -724,6 +701,7 @@ Apache Cordova is a popular mobile application development framework using CSS3,
 * [Angular 2 Seed CLI Admin (Template)](https://github.com/jvitor83/angular-pwa-seed) Multi-platform Angular 2 project (Web/PWA, Mobile and Desktop) with Ionic 2 (and optionally Bootstrap).
 
 ---
+* [ng-seed/spa](https://github.com/ng-seed/spa) - Seed project for Angular apps featuring Webpack, dev/prod modes, DLLs, AoT compilation, HMR, SCSS compilation, lazy loading, config, cache, i18n, SEO, and TSLint/codelyzer by @fulls1z3
 
 ### Angular 2 in Dart
 
@@ -832,6 +810,7 @@ Apache Cordova is a popular mobile application development framework using CSS3,
 
 #### Angular 2 in NativeScript
 
+#### Angular 2 in NativeScript
 > Build truly native iOS, Android and Windows Phone apps with Javascript and CSS. Try NativeScript open-source framework for cross-platform development.
 
 ##### NativeScript General Resources
