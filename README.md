@@ -3,7 +3,7 @@
     <img src="/media/awesome-angular.png" alt="Awesome Angular" />
   </a>
 </p>
-
+# Angular es increible para mi, voy a ser un Super creador
 # Awesome Angular [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Build Status](https://travis-ci.org/AngularClass/awesome-angular.svg?branch=gh-pages)](https://travis-ci.org/AngularClass/awesome-angular)
 
 Awesome list of [Angular](https://angular.io/) seed repos, starters, boilerplates, examples, tutorials, components, modules, videos, and anything else in the Angular ecosystem. [View as github page.](https://angularclass.github.io/awesome-angular/)
