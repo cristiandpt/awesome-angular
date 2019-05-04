@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!-- 
+ Recuerda que si vas a usar WAI-ARIA deberás utilizar el siguiente Doctype para que no te de error el validador con atributos como "role"
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+ARIA 1.0//EN" "http://www.w3.org/WAI/ARIA/schemata/xhtml-aria-1.dtd">    
+-->
+<!-- Plantilla base HTML v.1.2
+     Olga Carreras - olgacarreras.blogspot.com 
+
+-->
+ 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+
+	<head profile="http://miservidor.org/xmdp/htmlprofile.html http://geotags.com/geo/ http://www.acme.com/profiles/core"> 
+			
+			
+		<title>Titulo de la pagina</title>
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+		<base href="http://miservidororg.com/" /> 
+
+		<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
+		<!-- En HTML 5 sería sustituido por <meta charset="UTF-8"> -->
+		
+		
+		<meta http-equiv="content-language" content="es" /> 
+		<meta http-equiv="content-style-type" content="text/css" />
+		<meta http-equiv="content-script-type" content="text/javascript" /> 
+		<meta http-equiv="window-target" content="_top" /> 
+
+		<meta name="description" content="incluir descripcion" />
+		<!--// Incluir descripción //--> 
+		<meta name="keywords" content="palabra1, palabra2" /> 
+
+
+		<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+		<meta name="DC.title" content="ejemplo" />
+		<meta name="DC.creator" content="ejemplo" />
+		<meta name="DC.subject" content="ejemplo" />
+		<meta name="DC.description" content="ejemplo" />
+		<meta name="DC.language" scheme="ISO639-1" content="es" />
+		<meta name="DC.rights" content="(c) 2007 propiedad del copyright" />
+
+		<link rel="meta" href="miservidor/dublincore.xml" type="application/rdf+xml" title="Dublin Core Metadata" /> 
+
+
+		<link rel="schema.geo" href="http://geotags.com/geo" />
+		<meta name="geo.position" content="36.1254;-5.4429" />
+		<meta name="geo.region" content="ES-AN" />
+		<meta name="geo.placename" content="Algeciras" />
+
+		<link href="estilosGeneral.css" type="text/css" rel="stylesheet" media="all" />
+		<link href="estilosPantalla.css" type="text/css" rel="stylesheet" media="screen,projection" />
+		<link href="estilosPrint.css" type="text/css" rel="stylesheet" media="print,tty" />
+		<link href="estilosTelevision.css" type="text/css" rel="stylesheet" media="tv" />
+		<link href="estilosSintetizador.css" type="text/css" rel="stylesheet" media="aural" />
+		<link href="estilosMovil.css " type="text/css" rel="stylesheet"  media="handheld" />
+
+		<!--[if IE]>
+			<link href="estilosIE.css" type="text/css" rel="stylesheet" media="screen" />
+		<![endif]-->
+		
+		<!-- Viewport y CSS Media Queries para Responsive Design http://olgacarreras.blogspot.com.es/2014/01/responsive-design-y-accesibilidad.html-->
+		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+		
+		<link rel="stylesheet" type="text/css" href="estilosprueba1024.css" media="all and (max-width: 1024px)" />
+		<link rel="stylesheet" type="text/css" href="estilosprueba800.css" media="all and (max-width: 800px)" />
+		<link rel="stylesheet" type="text/css" href="estilosprueba600.css" media="all and (max-width: 600px)" />
+
+		<link rel="home" href="default.htm" title="Pagina inicial. " />
+		<link rel="index" href="mapa_web.htm" title="Mapa web. " />
+		<link rel="contents" href="#menuDiv" title="Tabla de contenidos. " />
+		<link rel="search" href="buscador.asp" title="Buscador. " />
+		<link rel="glossary" href="glosario.htm" title="Glosario. " />
+		<link rel="help" href="ayuda.htm" title="Ayuda. " />
+		<link rel="first" href="articulo1.htm" title="Primer articulo. " />
+		<link rel="previous" href="articulo3.htm" title="Articulo anterior. " />
+		<link rel="next" href="articulo5.htm" title="Articulo siguiente. " />
+		<link rel="last" href="articulo10.htm" title="Ultimo articulo. " />
+		<link rel="up" href="#pagina" title="Arriba. " />
+		<link rel="copyright" href="#copyright" title="Copyright. " />
+		<link rel="author" href="mailto:carreras.olga@gmail.com" title="Contactar. " />
+
+		<link rel="alternate" href="/en" hreflang="en" title="English version. " xml:lang="en" lang="en" />
+		<link rel="alternate" href="/fr" hreflang="fr" title="Français version. " xml:lang="fr" lang="fr" />
+		<link rel="alternate" href="/es" hreflang="es" title="Versión en Español. " xml:lang="es" lang="es" />
+
+		<link rel="alternate" type="application/rss+xml" title="Titulares RSS Feed. " href="titulares.rss" />
+		<link rel="alternate" type="application/atom+xml" title="Titulares Atom. " href="titulares.atom" />
+		
+		<link rel="accesibility" href="accesibilidad.rdf" type="application/rdf+xml" title="Accesibilidad. " />
+		<link rel="personalizar" href="personalizar.htm" title="Opciones de personalización para la navegación por el sitio web. " />
+
+		<link rel="archive" href="" title="Mayo 2007. " />
+		<link rel="archive" href="" title="Junio 2007. " />
+		
+        </head>
+	<body>
+		<div id="pagina">
+            <!-- Incluidos Landmark Roles http://olgacarreras.blogspot.com.es/2014/03/navegacion-mas-accesible-y-semantica-en.html-->
+			<div id="cabeceraDiv" role="banner">
+				<div id="irContenido"><a rel="contents" href="#contenidoDiv" accesskey="S">[S] Ir al contenido</a></div>
+			    <div id="logo">[logotipo con enlace a la home]</div>
+			</div>
+			
+			<div id="menuDiv" role="navigation" aria-labelledby="menu_principal">
+				<!--Visualmente las migas debajo del menú -->
+				<div id="migasDiv">[migas de pan]</div>
+				
+			    <h2 id="menu_principal" class="oculto">Menú principal:</h2>
+				<!-- Los atributos rel, rev, accesskey se rellenarían si son pertinentes o se eliminarían si no lo son -->
+				<ul>
+				   <li><a href="" accesskey="" rel="" rev=""></a>
+				      <ul>
+				        <li><a href="" accesskey="" rel="" rev=""></a></li>
+				      </ul>
+				  </li>
+				  <li><a href="#contenidoDiv" class="menu-actual" accesskey="" rel="" rev="">[Opción de menú actual]</a></li>
+				 </ul> 
+			</div>
+
+			<div id="contenidoDiv" role="main">
+			<!-- Los navegadores antiguos necesitaban para que fuera el ancla <a id="contenidoDiv" name="contenidoDiv">&nbsp;</a> !-->
+			<h1>Título de la página</h1>
+			<p>[Contenido]</p>
+			</div>
+
+			<div id="pieDiv" role="contentinfo">
+				<div id="copyright">Copyright</div>
+			</div>
+		</div> 
+	    <!--Incluimos los JS antes del body -->
+		<script type="text/javascript" src="js/utils.js"></script>
+	</body>
+</html> 
